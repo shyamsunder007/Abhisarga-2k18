@@ -135,7 +135,7 @@
                   </svg>
                   <span class="btn-background"></span>
                 </button>
-                <img src="assets/img/ph.jpg" style="transform: translate(28.9%, 30%) scale(.4);" alt="Welcome">
+                <img src="assets/img/bck.png" style="transform: translate(28.9%, 30%) scale(.4);" alt="Welcome">
               </div>
               <div class="intro--options">
                 <div class="spons-layer">
@@ -157,49 +157,59 @@
               <h2>Events</h2>
               <div class="work--lockup">
                 <ul class="slider">
-                  <li class="slider--item slider--item-left">
+                    <li class="slider--item slider--item-left">
+                        <a id="modal00" href="#modal-00">
+                          <div class="slider--item-image">
+                            <img src="assets/img/dota.jpg" alt="Dubsully">
+                          </div>
+                          <p class="slider--item-title">DoTA 2.0</p>
+                          <p class="slider--item-description">Comming Soon...</p>
+                        </a>
+                      </li>
+                  <li class="slider--item slider--item-center">
                     <a id="modal01" href="#modal-01">
                       <div class="slider--item-image">
                         <img src="assets/img/selfie.jpg" alt="Dubsully">
                       </div>
-                      <p class="slider--item-title">Dubsally</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-title">Selfie</p>
+                      <p class="slider--item-description">Selfie</p>
                     </a>
                   </li>
-                  <li class="slider--item slider--item-center">
-                    <a id="modal02" href="#modal-02">
+                  
+                  <li class="slider--item slider--item-right">
+                    <a <a id="modal02" href="#modal-02">
                       <div class="slider--item-image">
                         <img src="assets/img/cap.jpg" alt="Metiew and Smith">
                       </div>
                       <p class="slider--item-title">Canvas &amp; Art</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-description">Canvas painting</p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-right">
-                    <a href="#0">
+                    <a id="modal03" href="#modal-03">
                       <div class="slider--item-image">
                         <img src="assets/img/csposter.jpg" alt="Alex Nowak">
                       </div>
                       <p class="slider--item-title">Cs-1.6</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-description">CS-1.6.</p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-right">
-                    <a href="#0">
+                    <a id="modal04" href="#modal-04">
                       <div class="slider--item-image">
                         <img src="assets/img/dub.jpg" alt="Alex Nowak">
                       </div>
                       <p class="slider--item-title">Dubally</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-description">Dubsmash+Musically @Facebook.</p>
                     </a>
                   </li>
                   <li class="slider--item slider--item-right">
-                    <a href="#0">
+                    <a id="modal05" href="#modal-05">
                       <div class="slider--item-image">
                         <img src="assets/img/short-film.jpg" alt="Alex Nowak">
                       </div>
                       <p class="slider--item-title">Short-film</p>
-                      <p class="slider--item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                      <p class="slider--item-description">Short-film</p>
                     </a>
                   </li>
                 </ul>
@@ -257,13 +267,13 @@
                 <div class="modal">
                   <div class="modal--information">
                     <p>IIIT Sri City</p>
-                    <a href="mailto:ouremail@gmail.com">abhisarga@iiits.in</a>
-                    <a href="tel:+148126287560">+91 8143300600 </a>
+                    <a href="mailto:abhisarga@iiits.in">abhisarga@iiits.in</a>
+                    <a href="tel:+918143300600">+91 8143300600 </a>
                   </div>
                   <ul class="modal--options">
                     <li><a href="#0">Facebook</a></li>
                     <li><a href="#0">Twitter</a></li>
-                    <li><a href="mailto:ouremail@gmail.com"> Contact Us</a></li>
+                    <li><a href="mailtoabhisarga@iiits.in"> Contact Us</a></li>
                   </ul>
                 </div>
               </div>
@@ -273,7 +283,7 @@
             <div class="hire">
               <h2>You want  to Join For</h2>
               <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request">
+              <form class="work-request" action="https://docs.google.com/forms/d/e/1FAIpQLSd01ayCbjGc3mH7jaTv0s0JePk-UoZe6kh35DlGnYOi4WLtLw/viewform?usp=sf_link" method="get">
                 <div class="work-request--options">
                   <span class="options-a">
                     <input id="opt-1" type="checkbox" value="app design">
@@ -350,8 +360,10 @@
                     <label for="email">Email</label>
                   </div>
                 </div>
-                <input type="submit" value="Send Request">
-              </form>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd01ayCbjGc3mH7jaTv0s0JePk-UoZe6kh35DlGnYOi4WLtLw/viewform?usp=sf_link">
+                <input type="submit" 
+                 value="Other Events & To Send Request">
+              </a>  </form>
             </div>
           </li>
         </ul>
@@ -372,6 +384,23 @@
 
 
 <!-- modals -->
+<div id="modal-00">
+    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+    <div  id="btn-close-modal" class="close-modal-00"> 
+        CLOSE MODAL
+    </div>
+        
+    <div class="modal-content">
+        <!--Your modal content goes here-->
+        <div class="evt-img" style="background: url('assets/img/dota.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+        <div class="evt-desc">
+          <div class="evt-desc-body">
+            <p>
+             Comming Soon...</p>
+          </div>
+        </div>
+    </div>
+</div>
 
 <div id="modal-01">
     <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
@@ -381,12 +410,11 @@
         
     <div class="modal-content">
         <!--Your modal content goes here-->
-        <div class="evt-img" style="background: url('assets/img/csposter.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+        <div class="evt-img" style="background: url('assets/img/selfie.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
         <div class="evt-desc">
           <div class="evt-desc-body">
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis sed sunt, laboriosam dolore nihil fugit minima voluptate numquam delectus itaque commodi sapiente cumque eum veritatis ex eligendi labore deserunt hic.  
-            </p>
+             Comming Soon...</p>
           </div>
         </div>
     </div>
@@ -399,11 +427,68 @@
   </div>
       
   <div class="modal-content">
-    <div class="evt-img">img here...</div>
+    <div class="evt-img" style="background: url('assets/img/cap.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+        <div class="evt-desc">
+      <div class="evt-desc-body">
+        <p>
+          Comming Soon...:)........
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal-03">
+  <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+  <div  id="btn-close-modal" class="close-modal-03"> 
+      CLOSE MODAL
+  </div>
+      
+  <div class="modal-content">
+    <div class="evt-img" style="background: url('assets/img/csposter.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
     <div class="evt-desc">
       <div class="evt-desc-body">
         <p>
-          Desc Here........
+          Comming Soon...:)........
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal-04">
+  <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+  <div  id="btn-close-modal" class="close-modal-04"> 
+      CLOSE MODAL
+  </div>
+      
+  <div class="modal-content">
+    <div class="evt-img" style="background: url('assets/img/dub.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+         <div class="evt-desc">
+      <div class="evt-desc-body">
+        <p>
+          Comming Soon...:)........
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="modal-05">
+  <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
+  <div  id="btn-close-modal" class="close-modal-05"> 
+      CLOSE MODAL
+  </div>
+      
+  <div class="modal-content">
+    <div class="evt-img" style="background: url('assets/img/short-film.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+    <div class="evt-desc">
+      <div class="evt-desc-body">
+        <p>
+          Commssing Soon...:)........
         </p>
       </div>
     </div>
@@ -450,6 +535,12 @@
 </script>
 <script src="assets/js/vendor/animatedModal.min.js"></script>
 <script>
+  $("#modal00").animatedModal({
+                modalTarget:'modal-00',
+                animatedIn:'lightSpeedIn',
+                animatedOut:'bounceOutDown',
+                color:'#000'
+})
 $("#modal01").animatedModal({
                 modalTarget:'modal-01',
                 animatedIn:'lightSpeedIn',
@@ -463,7 +554,24 @@ $("#modal02").animatedModal({
                 animatedOut:'bounceOutDown',
                 color:'#000'
 })
-
+$("#modal03").animatedModal({
+                modalTarget:'modal-03',
+                animatedIn:'lightSpeedIn',
+                animatedOut:'bounceOutDown',
+                color:'#000'
+})
+$("#modal04").animatedModal({
+                modalTarget:'modal-04',
+                animatedIn:'lightSpeedIn',
+                animatedOut:'bounceOutDown',
+                color:'#000'
+})
+$("#modal05").animatedModal({
+                modalTarget:'modal-05',
+                animatedIn:'lightSpeedIn',
+                animatedOut:'bounceOutDown',
+                color:'#000'
+})
 </script>
 <script src="assets/js/functions-min.js"></script>
 </body>
